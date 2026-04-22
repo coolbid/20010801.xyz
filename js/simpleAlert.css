@@ -1,0 +1,12 @@
+.simpleAlert { position: fixed; z-index: 1000; }
+.simpleAlertShelter { position: fixed; width: 100%; height: 100%; top: 0; left: 0; background-color: #000; opacity: 0.3; filter: alpha(opacity=30); }
+.simpleAlertBody { position: fixed; display: none; width: 260px; padding-bottom: 20px; top: 50%; left: 50%; margin: -77px 0 0 -130px; opacity: 0; background-color: #fff; border-radius: 4px; }
+.simpleAlertBodyClose { position: absolute; width: 12px; height: 12px; top: 10px; right: 10px; padding: 5px; cursor: pointer; }
+.simpleAlertBodyContent { padding: 20px 20px 20px 55px; text-align: left; line-height: 24px; font-size: 14px; font-family: ''; }
+.simpleAlertBtn { padding: 0px 15px; height: 30px; border: 1px solid #1E9FFF; cursor: pointer; border-radius: 3px; color: #fff; font-size: 14px; margin: 5px 15px 0px 12px; font-family: ''; }
+.simpleAlertBtn1 { background-color: #1E9FFF; float: right; }
+.simpleAlertBtn1:hover { background-color: #34a8ff; }
+.simpleAlertBtn2 { background-color: #f7f7f7; color: #333; right: 25%; }
+.title { height: 42px; line-height: 42px; border-bottom: 1px solid #eee; background: #F8F8F8; border-radius: 2px 2px 0 0; padding: 0 80px 0 20px; color: #333; font-size: 14px; }
+.title h2 { float: left; font-weight: normal; font-size: 14px; font-family: ''; }
+.title img { float: right; }

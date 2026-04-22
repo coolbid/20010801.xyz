@@ -1,0 +1,83 @@
+table, tr, td { margin: 0; padding: 0; font-size: 12px; }
+body { margin: 0; padding: 0; font-size: 12px; background: url(../images/admin_images/body_bg.gif) #eef2fb repeat-y right; }
+a { font-size: 12px; line-height: 25px; color: #333333; text-decoration: none; }
+a:hover { font-size: 12px; line-height: 25px; color: Red; text-decoration: underline; }
+
+.left_topbg { background-image: url(../images/admin_images/content-bg.gif); background-repeat: repeat-x; }
+.left_txt2 { font-family: "宋体"; font-size: 12px; line-height: 30px; height: 30px; color: #000000; padding-left: 50px; width: 15%; }
+.td_left { font-family: "宋体"; font-size: 12px; line-height: 30px; height: 30px; color: #000000; padding-left: 50px; width: 15%; }
+.td_left_color { font-family: "宋体"; font-size: 12px; line-height: 30px; height: 30px; color: #000000; padding-left: 50px; width: 15%; background-color: #f2f2f2; }
+.td_right { font-family: "宋体"; font-size: 12px; line-height: 30px; height: 30px; color: #000000; text-align: left; width: 85%; }
+.td_right_color { font-family: "宋体"; font-size: 12px; line-height: 30px; height: 30px; color: #000000; text-align: left; width: 85%; background-color: #f2f2f2; }
+.left_txt { font-family: "宋体"; font-size: 12px; line-height: 30px; height: 30px; color: #666666; }
+.nowtable { background-color: #e1e5ee; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-style: solid; border-top-color: #bfc4ca; border-right-color: #bfc4ca; border-bottom-color: #bfc4ca; border-left-color: #bfc4ca; }
+.red { color: #F00; }
+.News { padding: 0px; width: 60px; height: 35px; }
+
+.News img { max-width: 60px; max-height: 45px; width: expression(this.width >60 && this.height < this.width ? 60: true); height: expression(this.height > 45 ? 45: true); }
+
+.News2 img { max-width: 120px; max-height: 90px; width: expression(this.width >120 && this.height < this.width ? 120: true); height: expression(this.height > 90 ? 90: true); }
+
+.BackGround img { max-width: 60px; max-height: 45px; width: expression(this.width >60 && this.height < this.width ? 60: true); height: expression(this.height > 45 ? 45: true); }
+
+
+.titlebt { font-size: 12px; line-height: 26px; font-weight: bold; color: #000000; background: url(../images/admin_images/top_bt.jpg) no-repeat; display: block; padding-top: 5px; width: 85px; height: 26px; text-align: center; }
+
+.titlebt2 { font-size: 12px; line-height: 26px; font-weight: bold; color: #000000; background: url(../images/admin_images/yycenter.png) repeat-x; display: block; padding-top: 5px; height: 26px; text-align: left; padding-left: 0px; padding-right: 0px; float: left; }
+.title_left { width: 11px; background: url(../images/admin_images/yyleft.png) no-repeat; float: left; height: 26px; padding-top: 5px; }
+.title_right { width: 11px; background: url(../images/admin_images/yyright.png) no-repeat; float: left; height: 26px; padding-top: 5px; }
+.button { cursor: pointer; }
+input:button { cursor: pointer; }
+#btnSave { cursor: pointer; }
+
+
+.btnUpdate2018{ cursor: pointer; }
+
+/*2019-08-12*/
+/*file容器样式*/
+a.files {
+    margin: 0 auto;
+    float: left;
+    width: 52px;
+    height: 22px;
+    overflow: hidden;
+    display: block;
+    border: 1px solid #d7d7d7;
+    background: url(../images/upfile_bg.gif) left top no-repeat;
+    text-decoration: none;
+}
+    /*file设为透明，并覆盖整个触发面*/
+    a.files input {
+        margin-left: -270px;
+        font-size: 24px;
+        cursor: pointer;
+        filter: alpha(opacity=0);
+        opacity: 0;
+    }
+    /*取消点击时的虚线框*/
+    a.files, a.files input {
+        outline: none; /*ff*/
+        hide-focus: expression(this.hideFocus=true); /*ie*/
+    }
+
+.uploading {
+    float: left;
+    background: url(../images/loading2.gif) no-repeat left center;
+    padding-left: 18px;
+    display: none;
+    line-height: 24px;
+    height: 24px;
+    color: #333;
+}
+.txtInput {
+    float: left;
+    margin-right: 5px;
+    padding: 0 3px 0 3px;
+    height: 22px;
+    line-height: 22px;
+    background: #FAFAFA;
+    border: 1px solid #D7D7D7;
+    vertical-align: middle;
+    font-size: 12px;
+    font-family: '';
+}
