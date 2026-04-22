@@ -1,0 +1,65 @@
+
+/*service*/
+#service{position:fixed;right:-230px;top:10px;z-index:999999999;margin:200px 0 0 0; font:14px;transition: 0.5s all;-webkit-transition: 0.5s all;-o-transition: 0.5s all; -moz-transition: 0.5s all;-ms-transition: 0.5s all; color:#666;}
+#service ul{ list-style:none;}
+
+.online_title{background:#666666; text-align:center;font-family:'poppins-semibold';   font-size:13px; color:#fff; text-transform:uppercase; padding:10px 0;}
+.online_title img{ max-width:30px; margin-right:5px;}
+#service a{ color:#666; font-size:13px;}
+#ser_main{position:relative;z-index:9;top:0px;}
+#ser_main a{display:block;overflow:hidden;}
+#ser_main #floatShow1{background:url(../images/ser-30.png) no-repeat;height:180px;width:44px;z-index:99999; position:absolute; left:-44px; top:0px;}
+
+#online{float:left;background:#fff;overflow:hidden; width:230px;-webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 3px 0 rgba(0, 0, 0, 0.1);position:relative; border:1px solid #ddd;}
+.onlineMenu ul li{ padding:10px 10px; border-bottom:1px solid #eee;}
+.onlineMenu ul li:last-child{ border:none;}
+.onlineMenu ul li:nth-child(2){ background:#e5e5e5;}
+.onlineMenu .serm_top{text-align:center;padding-bottom:10px;}
+.onlineMenu .call{text-align:left;}
+.call{ padding:6px 10px; font-size:13px;}
+.call img{display:inline-block;vertical-align:middle; margin-right:6px; }
+.call a:hover{color:#005da2 !important;}
+#service:hover{ right:0px;transition: 0.5s all;-webkit-transition: 0.5s all;-o-transition: 0.5s all; -moz-transition: 0.5s all;-ms-transition: 0.5s all;}
+#service:hover #ser_main #floatShow1{ left:120px; z-index:-11; opacity:0;}
+#service h4{ font-size:14px; color:#666; margin:0px; line-height:25px;font-family:'poppins-semibold';  }
+
+/*service*/
+#online_qq_layer{z-index:9999999;position:fixed;right:0px;bottom:0; }
+#floatShow{display:block;}
+#floatHide{display:none;}
+#online_qq_tab{position:relative;z-index:9;}
+#online_qq_tab #floatShow{overflow:hidden;background:url(../images/ser_2.html) no-repeat right bottom;  height:38px; width:250px; padding-top:7px; font-size:14px; padding-left:52px; text-transform:uppercase; color:#fff;}
+#online_qq_tab #floatShow img{ max-height:24px; float:right; margin-top:6px;}
+#online_qq_tab #floatHide img{ max-height:32px; float:right; margin-top:2px;}
+#online_qq_tab #floatHide{overflow:hidden;background:#005da2 url(../images/ser_1.html) no-repeat left center; width:100%; height:36px; font-size:13px;  color:#fff; line-height:36px; padding-left:50px; width:300px;text-transform:capitalize;}
+#onlineService{display:inline;width:300px; overflow: hidden;display:none;background: #fff; font-size:12px;box-shadow:0px 0px 10px rgba(0,0,0,0.2); border:1px solid #eee;}
+#online_qq_layer .inquiry .btn_1{ display:inline-block; line-height:34px; height:34px;  font-size:12px; color:#fff; text-transform:uppercase; background:#005da2 ; border:none; width:100%; text-align:center;}
+#onlineService .p{ margin:8px 0; color:#808080; line-height:22px; font-size:12px;}
+.i_message_inquiry h4{ font-size:16px; color:#ff8e09  ; text-transform:uppercase;font-family:'poppins-semibold';  }
+.i_message_inquiry { padding:10px; padding-top:20px; padding-bottom:20px;}
+.my_btn2{background: #ff8e09  none repeat scroll 0 0; border: medium none; color: #fff; display: inline-block; font-family:'poppins-semibold';    font-size: 16px; margin-top:15px; padding: 8px 15px; text-transform: uppercase;transition: all 0.5s ease 0s;}
+.my_btn2{ background:#005da2; color:#fff; line-height:38px; font-size:14px; font-family:'poppins-semibold';   display:inline-block; padding:0px 26px; text-transform:uppercase; margin-top:15px;} 
+.my_btn2 i{ margin-left:10px;transition: 0.5s all;-webkit-transition: 0.5s all;-o-transition: 0.5s all; -moz-transition: 0.5s all;-ms-transition: 0.5s all;}
+.my_btn2:hover i{ margin-left:20px;}
+
+#online_qq_layer .inquiry .btn_1:hover{ background:#005da2;}
+.i_message_inquiry .inquiry .input-group-addon{ background:none; border:none; border-radius:0px; padding:0px 10px;}
+.i_message_inquiry  .inquiry .input-group-addon i{ line-height:30px; font-size:13px;}
+.i_message_inquiry  .inquiry .form-control{ height:30px; border:none; background:none; border-radius:0px; line-height:30px; color:#999; font-size:12px;}
+.i_message_inquiry  .inquiry  #message{ height:80px;}
+.i_message_inquiry  .inquiry .input-group{ border:1px solid #ddd; background:#fff; height:32px; margin-bottom:20px;}
+@media only screen and (max-width: 768px) {
+#onlineService{ width:100%;}
+#online_qq_layer{ width:100%;}
+#online_qq_tab{ width:100%;}
+#online_qq_tab #floatShow{ background:url(../images/inquiry_ico.html) no-repeat; width:46px; height:46px; position:absolute; left:50%; bottom:10px; margin-left:-23px; padding-left:46px;}
+#online_qq_tab #floatHide{ width:100%; background:#005da2 url(../images/ser_1.html) no-repeat left center; width:100%; height:36px;}
+}
+/*back-top*/
+.totop{width:46px; height:46px; position:fixed; right:30px; bottom:80px; z-index:9999; display:none; background:rgba(51,51,51,0.6) url(../images/top1.png) no-repeat ;-moz-transition: all 0.5s;-o-transition: all 0.5s;-webkit-transition: all 0.5s;transition: all 0.5s; border-radius:5px;}
+.totop:hover{background:#333333 url(../images/top.png) no-repeat ;}
+
+.qrcodePanel img{display: none;}
+.qrcodePanel:hover img{display: block;}
